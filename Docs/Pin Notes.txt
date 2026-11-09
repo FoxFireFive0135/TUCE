@@ -1,0 +1,5 @@
+HOLD is active low
+RESET is active high
+
+If HOLD is set when CLOCK is high, the clock will be allowed to return to low.
+When CLOCK is low, HOLD stops it from going high.
